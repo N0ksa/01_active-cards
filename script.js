@@ -15,6 +15,7 @@ panels.forEach(panel => {
         }
         
     });
+
     
 })
 
