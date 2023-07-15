@@ -83,6 +83,17 @@ h1,h3{
 }
 
 
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: #FFFDD0;
+}
+
+a :visited{
+    color: #F3E5AB;
+}
+
+
 @media(max-width:760px){
     .container :nth-of-type(2),
     .container :nth-of-type(3){
