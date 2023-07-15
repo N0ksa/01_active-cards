@@ -89,8 +89,13 @@ a{
     color: #FFFDD0;
 }
 
-a :visited{
+a:visited{
     color: #F3E5AB;
+}
+
+
+.panel:hover{
+    border: 5px solid #F3E5AB;
 }
 
 
