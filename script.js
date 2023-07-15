@@ -5,8 +5,15 @@ panels.forEach(panel => {
 
     panel.addEventListener("click", () => {
 
-        removeActive();
-        panel.classList.add("active");
+
+        if (panel.classList.contains("active")){
+            removeActive();
+        
+        } else {
+            removeActive();
+            panel.classList.add("active");
+        }
+        
     });
     
 })
